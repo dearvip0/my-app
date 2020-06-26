@@ -38,6 +38,7 @@ export default class Layout extends Component {
                         </ul>
                     </nav>
                     <article>
+                        <p>aaa</p>
                         <FormattedDate date={this.state.date} />
                         {/* <Toggle /> */}
                         {/* <LoggingButton /> */}
