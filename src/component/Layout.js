@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Toggle from './Toggle/Toggle';
 import LoggingButton from './LoggingButton/LoggingButton';
 import LoginControl from './LoginControl/LoginControl';
+import NameForm from './ClassNameForm/NameForm';
+import Caculator from './Caculator/Caculator';
 function FormattedDate(props) {
     return <h2>It is {props.date.toLocaleTimeString()}.</h2>
 }
@@ -44,6 +46,8 @@ export default class Layout extends Component {
                         {/* <LoggingButton /> */}
 
                         <div><LoginControl /></div>
+                        <NameForm />
+                        <Caculator />
                     </article>
                 </section>
 
